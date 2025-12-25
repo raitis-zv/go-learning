@@ -4,8 +4,10 @@ import "fmt"
 
 func main() {
 	var age int = 23
-	name := "Raitis"
+	const name = "Raitis"
 	isLearning := true
 
-	fmt.Println(name, age, isLearning)
+	fmt.Println("Name:", name)
+	fmt.Println("Age:", age)
+	fmt.Println("Is learning Go:", isLearning)
 }
