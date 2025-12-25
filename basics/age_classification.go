@@ -14,5 +14,5 @@ func main() {
 		status = "Adult"
 	}
 
-	fmt.Println("You are an", status, ".")
+	fmt.Println("You are an", status+".")
 }
