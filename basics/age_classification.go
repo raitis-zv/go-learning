@@ -4,12 +4,15 @@ import "fmt"
 
 func main() {
 	age := 23
+	var status string
 
 	if age < 13 {
-		fmt.Println("Child")
+		status = "Child"
 	} else if age < 18 {
-		fmt.Println("Teenager")
+		status = "Teenager"
 	} else {
-		fmt.Println("Adult")
+		status = "Adult"
 	}
+
+	fmt.Println("You are an", status)
 }
