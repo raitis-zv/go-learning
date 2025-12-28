@@ -5,10 +5,8 @@ import "fmt"
 func main() {
 	ages := []int{10, 15, 18, 23, 40, 65}
 
-	var personNum = 1
-
 	for index, age := range ages {
-		personNum = index + 1
+		personNum := index + 1
 		var status string
 
 		if age >= 65 {
